@@ -1,0 +1,163 @@
+Converting GML script: ${project_dir}\scripts\AddVKey\AddVKey.gml
+Converted description /// @description  Adds a virtual key on platforms that need it....
+
+Converting GML script: ${project_dir}\scripts\ConnectDisconnectClient\ConnectDisconnectClient.gml
+Converted description /// @description  Called on a connect or disconnect of a client
+
+Converting GML script: ${project_dir}\scripts\ServerRecievedData\ServerRecievedData.gml
+Converted description /// @description  Read incoming data to the server from a connected saocket
+
+Converting GML script: ${project_dir}\scripts\SendKey\SendKey.gml
+Converted description /// @description  Send a key "event" to the server
+
+Converting GML script: ${project_dir}\scripts\SendName\SendName.gml
+Converted description /// @description  Send a name "event" to the server
+
+Converting GML script: ${project_dir}\scripts\SendKeepAlive\SendKeepAlive.gml
+Converted description /// @description  Ping the server now and then so we know if we're still connected or not....
+
+Font font0 has been converted to font family Arial (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\font0\font0.gms1.png
+Font fName has been converted to font family Arial (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fName\fName.gms1.png
+Converting GML script: ${project_dir}\objects\oPlayer\Create_0.gml
+Converted description /// @description  Initialise the player and map
+
+Converting GML script: ${project_dir}\objects\oPlayer\Step_0.gml
+Converted description /// @description  Process the player (move+collision)/// @param move+collision
+
+Converting GML script: ${project_dir}\objects\oBaddie\Create_0.gml
+Converted description /// @description  Initialise the baddie.
+
+Converting GML script: ${project_dir}\objects\oBaddie\Step_0.gml
+Converted description /// @description  Check the direction of the baddie. 
+
+Converting GML script: ${project_dir}\objects\oBaddie\Collision_05e00cca-e197-4930-b8cd-43af90c86cf4.gml
+Converted description /// @description  Kill baddie when player hits it!
+
+Converting GML script: ${project_dir}\objects\oBaddie\Draw_0.gml
+Converted description /// @description  don't draw baddies
+
+Converting GML script: ${project_dir}\objects\oMenu\Alarm_1.gml
+Converted description /// @description  Start game - local client+server
+
+Converting GML script: ${project_dir}\objects\oMenu\Alarm_0.gml
+Converted description /// @description  Start game - connect to a remote server
+
+Converting GML script: ${project_dir}\objects\oMenu\Mouse_56.gml
+Converted description /// @description  Detect clicking on server list
+
+Converting GML script: ${project_dir}\objects\oMenu\Other_68.gml
+Converted description /// @description  UDP server code - Detect servers "broadcast"
+
+Converting GML script: ${project_dir}\objects\oMenu\Draw_0.gml
+Converted description /// @description  Draw server list
+
+Converting GML script: ${project_dir}\objects\oServer\Create_0.gml
+Converted description /// @description  Create server and initialise map
+
+Converting GML script: ${project_dir}\objects\oServer\Alarm_0.gml
+Converted description /// @description  Broadcast our location occasionally. Clients pick this up and can then display servers to the user. 
+
+Converting GML script: ${project_dir}\objects\oServer\Step_0.gml
+Converted description /// @description  Send player data to ALL attached clients
+
+Converting GML script: ${project_dir}\objects\oServer\Other_68.gml
+Converted description /// @description  Server network control
+
+Converting GML script: ${project_dir}\objects\oServer\Draw_64.gml
+Converted description /// @description  Display connected players, and number of baddies left.
+
+Converting GML script: ${project_dir}\objects\oClient\Create_0.gml
+Converted description /// @description  Initialise the client
+
+Converting GML script: ${project_dir}\objects\oClient\Alarm_0.gml
+Converted description /// @description  Send keep alive "ping" to server
+
+Converting GML script: ${project_dir}\objects\oClient\Other_68.gml
+Converted description /// @description  Networking code
+
+Converting GML script: ${project_dir}\objects\oClient\Draw_0.gml
+Converted description /// @description  Draw all sprites in level
+
+Converting GML script: ${project_dir}\objects\oClient\KeyPress_39.gml
+Converted description /// @description  Tell server RIGHT was pressed
+
+Converting GML script: ${project_dir}\objects\oClient\KeyPress_37.gml
+Converted description /// @description  Tell server LEFT was pressed
+
+Converting GML script: ${project_dir}\objects\oClient\KeyPress_32.gml
+Converted description /// @description  Tell server SPACE was pressed
+
+Converting GML script: ${project_dir}\objects\oClient\KeyRelease_39.gml
+Converted description /// @description  Tell server RIGHT was released
+
+Converting GML script: ${project_dir}\objects\oClient\KeyRelease_37.gml
+Converted description /// @description  Tell server LEFT was released
+
+Converting GML script: ${project_dir}\objects\oClient\KeyRelease_32.gml
+Converted description /// @description  Tell server SPACE was released
+
+Converting GML script: ${project_dir}\objects\oCreateServerButton\Create_0.gml
+Converted description /// @description  Init button
+
+Converting GML script: ${project_dir}\objects\oCreateServerButton\Mouse_56.gml
+Converted description /// @description  restore the colour of the button
+
+Converting GML script: ${project_dir}\objects\oCreateServerButton\Mouse_7.gml
+Converted description /// @description  Click button.
+
+Converting GML script: ${project_dir}\objects\oCreateServerButton\Mouse_4.gml
+Converted description /// @description  Set the button green
+
+Converting GML script: ${project_dir}\objects\oTextBox\Create_0.gml
+Converted description /// @description  VERY simple text box....
+
+Converting GML script: ${project_dir}\objects\oTextBox\Mouse_7.gml
+Converted description /// @description  User clicked the text box, set it's string
+
+Converting GML script: ${project_dir}\objects\oTextBox\Draw_0.gml
+Converted description /// @description  Drw the text box and "caption"
+
+Converting GML script: ${project_dir}\objects\oTextBox\KeyPress_1.gml
+Converted description /// @description  Process text box
+
+Converting GML script: ${project_dir}\objects\oPuff\Create_0.gml
+Converted description /// @description  Slow the puff down a bit...
+
+Converting GML script: ${project_dir}\objects\oPuff\Other_7.gml
+Converted description /// @description  kill the instance when the animation ends
+
+Converting GML script: ${project_dir}\objects\oLeftButton\Create_0.gml
+Converted description /// @description  Add virtual key if required, otherwise kill instance
+
+Converting GML script: ${project_dir}\objects\oLeftButton\Draw_64.gml
+Converted description /// @description  draw button
+
+Converting GML script: ${project_dir}\objects\oLeftButton\Draw_0.gml
+Converted description /// @description  empty
+
+Converting GML script: ${project_dir}\objects\oRightButton\Create_0.gml
+Converted description /// @description  Add virtual key if required, otherwise kill instance
+
+Converting GML script: ${project_dir}\objects\oRightButton\Draw_64.gml
+Converted description /// @description  draw button
+
+Converting GML script: ${project_dir}\objects\oRightButton\Draw_0.gml
+Converted description /// @description  empty
+
+Converting GML script: ${project_dir}\objects\oJumpButton\Create_0.gml
+Converted description /// @description  Add virtual key if required, otherwise kill instance
+
+Converting GML script: ${project_dir}\objects\oJumpButton\Draw_64.gml
+Converted description /// @description  draw button
+
+Converting GML script: ${project_dir}\objects\oJumpButton\Draw_0.gml
+Converted description /// @description  empty
+
+Game speed set to 60
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'tile/tile_get_left.gml'
+Added compatibility script 'tile/tile_layer_find.gml'
+Added compatibility script '__global_object_depths.gml'
